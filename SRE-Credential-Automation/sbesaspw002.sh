@@ -2,7 +2,7 @@
 
 # Author: Christian Hunkus
 # Date: 12/24/2020
-# Contact: christian.hunkus.osv@fedex.com
+# Contact: christian.hunkus.osv@company.com
 # Version: 1.0.0
 
 # Check for paramaters, there should be nothing passed to the program
@@ -51,10 +51,10 @@ _delete_readable_file () {
 	|| { echo "Deletion successful"; return 0; } }
 }
 
-# Get user's FedEx ID
-_get_input "Enter your FedEx Employee ID: "
-[[ $? -eq 0 ]] && { fxid=$REPLY; } || { >&2 echo "Error retreiving input"; exit 1; }
-[[ "$fxid" == +([0-9]) ]] || { >&2 echo "FedEx Employee IDs can only contain digits"; exit 1; }
+# Get user's company ID
+_get_input "Enter your company Employee ID: "
+[[ $? -eq 0 ]] && { company_id=$REPLY; } || { >&2 echo "Error retreiving input"; exit 1; }
+[[ "$company_id" == +([0-9]) ]] || { >&2 echo "company Employee IDs can only contain digits"; exit 1; }
 
 # Get user's password for encoding
 cnt=0
@@ -91,7 +91,7 @@ done
 
 # Create .authinfo file
 authinfon=".authinfo_new"
-authinfot="default user $fxid password $sas002"
+authinfot="default user $company_id password $sas002"
 echo "$authinfot" > "${homedir}/${authinfon}"
 [[ $? -eq 0 ]] && { echo "SAS002 password file successfully saved in ${homedir}/${authinfon}"; }\
 || { >&2 echo "Error occurred when saving file."; exit 1; }

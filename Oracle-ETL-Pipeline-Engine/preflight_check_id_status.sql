@@ -97,7 +97,7 @@ where       cd1 in (select cd1 from cd1_list)
 group by    group_id, prog_id
 order by    1, 2;
 
--- #4) Examine customer counts per cd2ision
+-- #4) Examine customer counts per cd2
 prompt 'Breakdown the Accounts appearing in defined cd2 levels'
 select      coalesce(group_id,prog_id) prog_id, prog_id new_prog_id, count(distinct acct_nbr) mems
 from        dbshot

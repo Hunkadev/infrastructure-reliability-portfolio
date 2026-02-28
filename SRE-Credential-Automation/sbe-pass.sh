@@ -2,7 +2,7 @@
 
 # Author: Christian Hunkus
 # Date: 12/24/2020
-# Contact: christian.hunkus.osv@fedex.com
+# Contact: christian.hunkus.osv@company.com
 # Version: 1.0.0
 
 # Setup vars (if needed)

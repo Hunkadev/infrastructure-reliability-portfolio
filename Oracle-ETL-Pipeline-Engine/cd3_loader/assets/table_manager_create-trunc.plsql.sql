@@ -1,6 +1,6 @@
 -- Capture the directory to work within
 -- This must only be present if the executing program resides in a different directory
--- See the "run_massmove_grps.sh" file for implementation of this script
+-- See the "run_cd3.sh" file for implementation of this script
 def asset_path = &1
 
 -- PL/SQL BLOCK

@@ -20,7 +20,7 @@ tabman="$asset_dir/$manager"
 
 # Set the user ID and adhoc prompt for password
 #
-user="$(read -p "Enter fedex id prefaced with 'a': " && echo $REPLY)"
+user="$(read -p "Enter company id prefaced with 'a': " && echo $REPLY)"
 pass="$(read -sp "Enter LDAP password: " && echo $REPLY)"
 # Give the terminal space after the password entry
 echo -e "\n"

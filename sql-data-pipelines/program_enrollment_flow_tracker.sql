@@ -95,7 +95,7 @@ with
                         (cur_cd1 in (select distinct cd1 from id_ref)))
                     then 'EXIT'
                   -- This is the last record for an account and it is closed
-                  -- If non-group, this left the discount programs entirely
+                  -- If non-group, this left the programs entirely
                   --   Mark as 'DEAD'
                   when ((hop_loc is null)
                          and
