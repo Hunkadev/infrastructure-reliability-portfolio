@@ -16,7 +16,7 @@ This repository demonstrates my approach to **Systems Engineering**, **Data Reli
 ### 📂 [SRE-Credential-Automation](./SRE-Credential-Automation)
 * **Focus:** Toil Reduction, Identity Management Automation, and Process Orchestration.
 * **Key Tech:** Bash, Linux CLI (`getopt`), Process Backgrounding, Log Parsing (`grep`).
-* **Use Case:** A modular CLI utility that automates the secure rotation and encoding of LDAP credentials across a proprietary SAS grid. Reduces a highly manual, multi-step rotation process into a single command while enforcing strict input safety limits.
+* **Use Case:** A modular CLI utility that automates the rotation and encoding of LDAP credentials across a proprietary SAS grid. Reduces a highly manual, multi-step rotation process into a single command while enforcing strict input safety limits.
 
 ### 📂 [sql-data-pipelines](./sql-data-pipelines)
 * **Focus:** Algorithmic State-Reconstruction and Legacy Migration.
