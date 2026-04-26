@@ -17,3 +17,6 @@ Born from the need to bypass brittle, resource-constrained enterprise job schedu
 * **Decoupled Telemetry:** JSON-structured, asynchronous logging module for scalable observability across distributed nodes.
 
 *Documentation, Dependency Diagrams, and Core Routing Logic coming soon.*
+
+---
+*Copyright © 2026 Christian Hunkus. Licensed under the [GNU General Public License v3.0](LICENSE).*

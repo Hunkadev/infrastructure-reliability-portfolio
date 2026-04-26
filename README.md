@@ -51,3 +51,5 @@ This repository demonstrates my approach to **Systems Engineering**, **Data Reli
 
 ---
 *Note: Proprietary data (Customer IDs, Schema Names, IP Addresses) has been sanitized for compliance and public viewing.*
+
+*Note: This portfolio contains sanitized demonstrations of enterprise architecture. Unless explicitly licensed in a project subdirectory, code is provided for portfolio review only and is not licensed for reuse or distribution.*
